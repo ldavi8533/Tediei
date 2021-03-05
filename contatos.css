@@ -1,0 +1,132 @@
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+  background-color: #3cb371;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo {
+  position: relative;
+  align-content: center;
+  padding: 10px;
+}
+#area-menu {
+  padding: 10px;
+}
+
+#area-principal {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#area-postagens {
+  width: 95%;
+  float: center;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+}
+
+.atual {
+  background-color: black;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.mensagem {
+  color: #3cb371;
+  font-size: 18px;
+}
+
+.botao {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background-color: #3cb371;
+}
+
+button {
+  transform: scale(1);
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+/*
+**** Formatação do menu ****
+*/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #3cb371;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+  color: #3cb371;
+  background: #fff;
+  text-decoration: none;
+}
+
+/*
+**** Formatações em geral ****
+*/
+
+h1 {
+  color: #3cb371;
+  font-size: 2.5em;
+}
+
+p {
+  color: white;
+}
+
+input {
+  text-indent: 3px;
+  font-size: 14px;
+}
+
+textarea {
+  text-indent: 3px;
+  font-size: 15px;
+}
+
+.img-logo {
+  width: 130px;
+}

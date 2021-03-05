@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+  background-color: #ffd700;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo {
+  position: relative;
+  align-content: center;
+  padding: 10px;
+}
+
+#area-menu {
+  padding: 10px;
+}
+
+#area-principal {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#area-postagens {
+  width: 95%;
+  float: left;
+}
+
+#imagens {
+  float: left;
+  margin: 0px 20px 0px 0px;
+  width: 160px;
+}
+
+.atual {
+  background-color: black;
+}
+
+.oculta {
+  display: none;
+}
+
+/* postagem inicio*/
+
+.postagem {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+}
+
+.quadro_geral {
+  display: table;
+  vertical-align: top;
+  width: 100%;
+  line-height: 1.2;
+}
+
+.quadro {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+}
+
+.conteudo {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+}
+
+.titulo_informacao {
+  margin: 0 0 5px 0;
+  margin-bottom: 10px !important;
+}
+
+.titulo_filme {
+  line-height: 1.2;
+  display: inline !important;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffd700;
+}
+
+.data {
+  color: #888;
+}
+
+.lista_itens {
+  margin: -3px 0 0 0;
+}
+
+li {
+  display: table-row !important;
+  padding: 2px 0 !important;
+  text-align: -webkit-match-parent;
+}
+
+.info {
+  display: table-cell;
+  padding: 20px 20px 0px 0px;
+  color: #888;
+}
+
+p {
+  margin: 0 0 4px 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/*fim postagem*/
+
+#paginas {
+  padding: 10px 0 0 0px;
+  float: right;
+  margin: 0 47px 30px 0px;
+}
+
+/*fim botao*/
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+}
+
+/*
+**** Formatação do menu ****
+*/
+
+a:link,
+a:visited {
+  color: #ffd700;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+  color: #ffd700;
+  background: #fff;
+  text-decoration: none;
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+  color: black;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #ffd700;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
+
+.branco {
+  color: white;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+
+.img-logo {
+  width: 130px;
+}
